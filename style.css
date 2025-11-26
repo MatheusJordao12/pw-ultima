@@ -56,6 +56,16 @@ header {
     fill: white;
 }
 
+.filtro {
+    gap: 5px;
+    display: flex;
+}
+
+.filtro input {
+    border: none;
+    background-color: rgba(65, 0, 119, 0.534);
+}
+
 .item {
     width: 200px;
     height: 200px;
@@ -67,3 +77,4 @@ header {
     justify-content: end;
     display: flex;
 }
+
