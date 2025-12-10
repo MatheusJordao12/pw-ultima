@@ -80,16 +80,18 @@ select {
 .item {
     cursor: pointer;
     width: 200px;
-    height: 250px;
+    height: 300px;
     background-color: rgba(51, 51, 51, 0);
     border-radius: 5px;
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.575);
 }
 
 .pratileira1{
+    margin-right: 20px;
     gap: 15px;
     justify-content: center;
     display: flex;
+    margin-bottom: 15px;
 }
 
 .pratileira1 img {
@@ -111,17 +113,74 @@ select {
     font-weight: 900;
     margin-right: 20px;
     width: 200px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.534);
 }
 
 .barraLateral ol{
     list-style: inside;
-    list-style: square;
+    list-style-type: square;
 }
 
 .linha-vertical {
     margin-right: 100px;
     display: inline-block;
     width: 1px;
-    height: 100vh;
+    height: 1000px;
     background-color: #31313141; 
+}
+
+.preco {
+    color: blueviolet !important;
+    margin: 5px;
+    text-align: left !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Comprar {
+    padding: 4px;
+    width: 95px;
+    font-weight: bold;
+    color: rgb(255, 255, 255) !important;
+    margin-left: 5px;
+    text-align: left !important;
+    font-size: 20px;
+}
+
+.filtragemPreco {
+    align-items: center;
+    gap: 15px;
+}
+
+.comprarParte{
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    background: linear-gradient(rgb(24, 24, 24), rgb(24, 24, 24));
+}
+
+.comprarParte svg {
+    margin-top: 8px;
+    width: 20px;
+    height: 20px;
+}
+
+.carrinhoComprar {
+    fill: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(rgb(24, 24, 24), rgb(24, 24, 24));
+}
+
+footer p {
+    margin-top: 13px;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
 }
